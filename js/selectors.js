@@ -4,15 +4,15 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  $('img:last-child')
+  return $('img:last-child')
 }
 
 function ninjaBabySelector() {}
 
 function divSelector() {
-  $('div');
+  return $('div');
 }
 
 function firstListItem() {
-  $('ul li:first');
+  return $('ul li:first');
 }
